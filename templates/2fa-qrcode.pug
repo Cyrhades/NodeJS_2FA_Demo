@@ -6,3 +6,13 @@ html(lang="fr")
         title Démo QRCode 2FA
     body 
         img(src=qr)
+        br
+        div ou saisir Manuellement les informations suivantes 
+        br
+        b Nom du compte : 
+        span #{account}
+        br
+        b Votre clé  : 
+        span #{key}
+        br
+        b Type de clé : Basé sur l'heure (OTP - One Time Password) 
